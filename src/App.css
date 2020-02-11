@@ -1,38 +1,139 @@
-.App {
-  text-align: center;
+*{
+  margin: 0em;
+  padding: 0em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.phone{
+  border: 1em solid white;
+  margin: 0px auto;
+  height: 500px;
+  width: 250px;
+  background-color: white;
+  border-radius: 2em;
+  box-shadow: 1em grey;
+  z-index: 1;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+ background-color: black;
 }
+.screen{
+  background-color: black;
+  height: 428px;
+  width: 228px;
+  border-radius: 1px;
+  border: 1px solid black;
+  margin: 100px auto;
+  position: relative;
+ bottom: 600px;
+ left: 560px;
+ z-index: 1;
+ opacity: 0.9;
+ 
+}
+.menu{
+  height: 30px;
+  width: 70px;
+  background-color: white;
+  box-shadow: 1em grey;
+  border: 1px solid black;
+  border-radius: 50px;
+  z-index: 2;
+  position: relative;
+  top: 445px;
+  left: 88px
+}
+.volume{
+  background-color: black;
+  height: 6px;
+  width: 40px;
+  border-radius: 5em;
+  position: relative;
+  top: 25px;
+  left: 657px;
+  z-index: 2;
+}
+.camera{
+  background-color: black;
+  height: 5px;
+  width: 6px;
+  border-radius: 50px;
+  z-index: 2;
+  position: relative;
+  top:20px;
+  left: 648px;
+}
+.button{
+  z-index: 3;
+}
+.start{
+ position: relative;
+ bottom: 950px;
+ left: 580px;
+ height: 30px;
+ width: 64px;
+ opacity: 0.5;
+ color:black;
+ font-weight: 900;
+ z-index: 4;
+ border-radius: 3em;
+ text-transform: uppercase;
+}
+.rest{
+  position: relative;
+ bottom: 950px;
+ left: 650px;
+ height: 30px;
+ width: 64px;
+ opacity: 0.5;
+ color:black;
+ font-weight: 900;
+ z-index: 4;
+ border-radius: 3em;
+ text-transform: uppercase;
+}
+.text{
+  position: relative;
+  bottom: 1000px;
+  left: 570px;
+  z-index: 3;
+ 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
+}
+span{
+  padding: 8px;
+  color: gray;
+  z-index: 3;
+  font-weight: 700;
+  
+}
+.time{
+  position: relative;
   color: white;
+  font-weight: 800;
+  font-size: 2.5em;
+  z-index: 4;
+  display: flex;
+  bottom: 1030px;
+  left:580px
 }
-
-.App-link {
-  color: #61dafb;
+.rest:hover{
+  background: linear-gradient(90deg,transparent,#f4035f)
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.start:hover{
+  background: linear-gradient(90deg,transparent,#f4035f)
+}
+.fa-undo-alt{
+  position: relative;
+  top: 415px;
+  left: 200px;
+  z-index: 4;
+  
+}
+.fa-clone{
+  position: relative;
+  top: 469px;
+  left: 40px;
+  z-index: 4;
+  
 }
